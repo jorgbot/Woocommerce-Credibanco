@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+html {
+    background: #fff;
+}
+body{
+	    border-top: solid 6px #472c85 !important;
+    color: #472c85 !important;
+}
+.glyphicon {
+    	color:#472c85 !important;
+
+}
+.col-center{
+    float: none;
+    margin: 0 auto;
+        text-align: center;
+}
+.col-center-naranja{
+    float: none;
+    margin: 0 auto;
+        text-align: center;
+    color: darkgoldenrod;
+}
+#logo{    
+       width: 165px !important;
+    margin: 10px;
+}
+
+#logoa{    
+    width: 136px !important;
+    margin-left: 39px;
+    margin-top: -19px;}
+.signup-form-container {
+    width: 50%;
+	
+	border-radius:3px;
+	background:transparent;
+	border-top:3px solid #d2d6de;
+	margin:4% auto;
+	border-top-color:#472c85;
+	box-shadow:0 1px 5px rgba(0, 0, 0, 0.1)
+}
+
+.form-header{
+	
+	color:#472c85 !important;
+	display:block;
+	padding:20px;
+	position:relative;
+	border-bottom:1px solid #472c85;
+}
+
+.form-header .form-title {
+	display:inline-block;
+	font-size:18px;
+	margin:0;
+	line-height:1
+}
+
+.form-body {
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+	border-bottom-right-radius:3px;
+	border-bottom-left-radius:3px;
+	padding:20px;
+}
+
+.form-footer {
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+	border-bottom-right-radius:3px;
+	border-bottom-left-radius:3px;
+	padding:15px;
+}
+
+.form-control{
+	
+	font-size: 16px;
+    height: auto;
+    padding: 7px 9px;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+        border-top: 0px !important;
+}
+
+@media (max-width: 768px) {
+    .signup-form-container {
+    width:100%;
+	
+	}
+    
+    #logo{    
+         width: 103px !important;
+}
+
+#logoa{    
+    width: 95px !important;
+    }
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #472c85;
+    border-color: #472c85;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #69cc08;
+    border-color: #69cc08;
+}
